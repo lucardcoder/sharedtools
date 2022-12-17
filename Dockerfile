@@ -15,6 +15,6 @@ RUN     yum install telnet -y && \
     
 
 
-CMD     tail -f /dev/null
+CMD     ["tail -f /dev/null", "D", "FOREGROUND"]
 
 
