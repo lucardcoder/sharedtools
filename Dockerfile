@@ -15,6 +15,8 @@ RUN     yum install telnet -y && \
     
 
 
-CMD     ["tail", "-f", "/dev/null",]
+# CMD     ["tail", "-f", "/dev/null",]
+
+ENTRYPOINT      ["tail", "-f", "/dev/null"]
 
 
